@@ -12,13 +12,15 @@ export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        <Navbar />
         <Switch>
           <Route exact path="/" component={Homepage} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/resume" component={Resume} />
+          <div className="routes-with-navbar">
+            <Navbar />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/resume" component={Resume} />
+          </div>
         </Switch>
       </div>
     );
