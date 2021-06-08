@@ -19,3 +19,16 @@ a {
     align-items: center;
     font-family: 'Mate SC', serif;
 }
+
+.routes-with-navbar {
+    background-color: floralwhite;
+}
+
+.page-wrapper {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
