@@ -8,18 +8,18 @@ export default function contact() {
         <div className='contact-wrapper page-wrapper'>
             <h3>Contact Info</h3>
 
-            <h4>Email</h4>
-            <span><FontAwesomeIcon icon={faEnvelope} />ajonzy@gmail.com</span>
+            <h4><FontAwesomeIcon icon={faEnvelope} />Email</h4>
+            <span>ajonzy@gmail.com</span>
 
-            <h4>Phone</h4>
-            <span><FontAwesomeIcon icon={faMobileAlt} />(385)-445-4601</span>
+            <h4><FontAwesomeIcon icon={faMobileAlt} />Phone</h4>
+            <span className="multi-line">(385)-445-4601</span>
             <span>Feel free to text!</span>
 
-            <h4>Github</h4>
-            <span><FontAwesomeIcon icon={faGithub} /><a href="https://github.com/ajonzy">github.com/ajonzy</a></span>
+            <h4><FontAwesomeIcon icon={faGithub} />Github</h4>
+            <span><a href="https://github.com/ajonzy">github.com/ajonzy</a></span>
 
-            <h4>LinkedIn</h4>
-            <span><FontAwesomeIcon icon={faLinkedin} /><a href="https://www.linkedin.com/in/ajonzy/">linkedin.com/in/ajonzy</a></span>
+            <h4><FontAwesomeIcon icon={faLinkedin} />LinkedIn</h4>
+            <span><a href="https://www.linkedin.com/in/ajonzy/">linkedin.com/in/ajonzy</a></span>
         </div>
     )
 }
